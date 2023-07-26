@@ -40,20 +40,4 @@ public class Person {
         return age >= 13 && age <=19;
     }
 
-    public static void main(String[] args) {
-        Person person = new Person("John", "Doe", 20);
-
-//        person.pets = new String[2];
-//        person.pets[0] = "cat";
-//        person.pets[1] = "dog";
-//        System.out.println(Arrays.toString(person.pets));
-
-        System.out.println("Firstname: " + person.getFirstName());
-
-        System.out.println("LastName: " + person.getLastName());
-
-        System.out.println("Age: " + person.getAge());
-
-        System.out.println("isTeen: " + person.isTeen());
-    }
 }
